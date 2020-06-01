@@ -2,10 +2,14 @@
 
 {% block content %}
 
-{% for k, i in item_dict.items() %}
+{% for key, item in item_dict.items() %}
     <ul>
-        <li>{{ k }} {{ i }}</li>
+        <li>{{ key }} {{ value }}</li>
     </ul>
 {% endfor %}
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+    </div>
 
 {% endblock content %}
