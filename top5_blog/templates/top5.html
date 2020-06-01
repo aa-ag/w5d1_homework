@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for k, i in item_dict.items() %}
+    <ul>
+        <li>{{ k }} {{ i }}</li>
+    </ul>
+{% endfor %}
+
+{% endblock content %}

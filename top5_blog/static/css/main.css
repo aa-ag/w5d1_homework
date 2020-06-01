@@ -1,0 +1,20 @@
+.banner {
+    height: 60vh;
+    background-image: url(https://media.giphy.com/media/xTiTnKU4yfkh5ODWDu/giphy.gif);
+    background-size: cover;
+    background-position: 50% 60%;
+    margin-bottom: 2vh;
+}
+
+.welcome-message {
+    display: flex;
+    padding-top: 25%;
+    top: 15rem;
+    margin-left: 2vw;
+    color: white;
+}
+
+p {
+    left: 2vw;
+    color: rgb(94, 119, 94);
+}
