@@ -8,5 +8,11 @@ def home():
 
 @app.route('/top5', methods=['GET', 'POST'])
 def top5():
-    item_dict = {1: "Jim Gaffigan", 2:"Jimmy O. Yang", 3:"Jerry Seinfeld", 4:"Kevin Hart", 5:"Nate Bargatze"}
+    item_dict = {
+        1:"Jim Gaffigan", 
+        2:"Jimmy O. Yang", 
+        3:"Jerry Seinfeld", 
+        4:"Kevin Hart", 
+        5:"Nate Bargatze"
+    }
     return render_template("top5.html", item_dict = item_dict)
